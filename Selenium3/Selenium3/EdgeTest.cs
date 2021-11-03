@@ -17,7 +17,7 @@ namespace Selenium3
             IWebDriver driver = new EdgeDriver(options);
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://www.google.com");
-            driver.Dispose();
+            driver.Close();
         }
     }
 }

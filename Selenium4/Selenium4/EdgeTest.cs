@@ -13,7 +13,7 @@ namespace Selenium4
             IWebDriver driver = new EdgeDriver();
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://www.google.com");
-            driver.Dispose();
+            driver.Close();
         }
     }
 }
