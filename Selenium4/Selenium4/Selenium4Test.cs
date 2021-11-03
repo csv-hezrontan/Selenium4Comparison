@@ -59,7 +59,7 @@ namespace Selenium4
         [TestCleanup]
         public void CleanUp()
         {
-            Driver.Dispose();
+            Driver.Close();
         }
     }
 }
